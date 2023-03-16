@@ -1,4 +1,3 @@
-#! /usr/bin/env python3
 # import libraries
 import numpy as np 
 import pandas as pd 
@@ -62,7 +61,7 @@ print ("Data size for training = " + str(x_train.shape[0]))
 print ("Data size for testing = " + str(x_test.shape[0]))
 
 # training and testing
-# KNN neighbours
+# KNN mode
 score_knn = train_test(x_train, y_train, x_test, y_test, KNeighborsClassifier())
 print ("Score from KNN Neighbours model = " + str(score_knn))
 
